@@ -6,7 +6,7 @@ keep_alive()
 intents = discord.Intents.all()
 intents.members = True
 
-prefixes = ["r!", "R!", " <@1133486025025519748>"]
+prefixes = ["&"]
 
 bot = commands.Bot(command_prefix=prefixes, intents=intents)
         
